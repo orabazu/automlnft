@@ -1,6 +1,8 @@
 ![AutoMLNFT Logo](./doc/img/logo.png) 
 
-Automate your ML, get your results as NFT
+## Automate your ML, get your results as NFT
+
+Welcome to the documentation of AutoML.NFT dapp.
 
 <hline>
 </hline>
@@ -14,7 +16,11 @@ Automate your ML, get your results as NFT
 
 ## Executive Summary
   
-[AutoML.NFT app](https://github.com/albert-vo-crypto/automlnft) is **a Machine Learning as a Service (MLaaS) platform** to interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought. The project also provides a template for XRPL and other blockchains on how MLaaS dapps with innovative features can be developed on the blockchain.
+[AutoML.NFT app](https://github.com/albert-vo-crypto/automlnft) is 
+- **a Machine Learning as a Service (MLaaS) platform** to 
+- interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and 
+- **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. 
+AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought. The project also provides a template for XRPL and other blockchains on how MLaaS dapps with innovative features can be developed on the blockchain.
 
 The app was designed, developed, and implemented during the period of [XRPL NFT Hackathon](https://xrplnft.devpost.com/) by the project team. 
 
