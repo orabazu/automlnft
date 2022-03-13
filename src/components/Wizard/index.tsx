@@ -1,6 +1,6 @@
 import './Wizard.scss';
 
-import { Button, message, Steps, Tooltip } from 'antd';
+import { Button, message, Steps } from 'antd';
 import React, { ReactNode, useState } from 'react';
 
 const { Step } = Steps;
