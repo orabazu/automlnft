@@ -27,7 +27,7 @@ export const Download = () => {
 
   const download = () => {
     const link = document.createElement('a');
-    link.href = `http://www.africau.edu/images/default/sample.pdf`;
+    link.href = `ipfs://QmNqAJtadcGSq2vTxcsJEYPU3BYUznxQCb1d59aC6tC115?filename=iris_Data_Analysis.pdf`;
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
@@ -112,7 +112,7 @@ export const Download = () => {
           />
         }
         actions={[
-          <Button type="primary" onClick={download} key="mint" loading={isLoading}>
+          <Button type="primary" onClick={download} key="mint">
             Download
           </Button>,
         ]}>

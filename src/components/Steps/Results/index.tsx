@@ -218,7 +218,7 @@ export const Results = () => {
               <p>
                 Total:{' '}
                 <span style={{ fontWeight: 'bold', color: 'black' }}>
-                  {transactionCost + 10} XRP
+                  {transactionCost * 2 + 10} XRP
                 </span>
               </p>
               <p>
