@@ -1,8 +1,0 @@
-attrname,attrtype,factororresponse
-RestaurantID,text,id
-Satisfaction,numeric,response
-Reception,numeric,factor
-Service,numeric,factor
-WaitingTime,numeric,factor
-FoodQuality,numeric,factor
-Price,numeric,factor

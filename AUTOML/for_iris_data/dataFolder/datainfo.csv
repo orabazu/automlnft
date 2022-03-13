@@ -1,6 +1,0 @@
-attrname,attrtype,factororresponse
-SepalLength,numeric,factor
-SepalWidth,numeric,factor
-PetalLength,numeric,factor
-PetalWidth,numeric,factor
-IrisClass,nominal,response
