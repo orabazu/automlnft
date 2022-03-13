@@ -76,7 +76,18 @@ After the successfull installation of the packages: `yarn dev`
 
 ## AUTOML Install
 
+
+``` bash
 wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+
+```
+
+``` bash
 chmod +x Anaconda3-2021.05-Linux-x86_64.sh
+
+```
+
+``` bash
 run Anaconda3-2021.05-Linux-x86_64.sh
 
+```
