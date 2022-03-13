@@ -153,6 +153,7 @@ const Dashboard = () => {
           //   },
           //   pageSize: 10,
           // }}
+          locale={{ emptyText: 'No NFTs yet' }}
           dataSource={accountNFTs}
           renderItem={(item) => (
             <List.Item className="card NFTCard">
@@ -166,13 +167,13 @@ const Dashboard = () => {
 
                 <div className="actions">
                   <Button onClick={() => getOffers(item.TokenID)} className={'btn-fancy'}>
-                    Sync Sales
+                    Show sale status
                   </Button>
 
                   <div className="actions-right">
-                    <Button className={'btn-fancy'} style={{ marginRight: '5px' }}>
+                    {/* <Button className={'btn-fancy'} style={{ marginRight: '5px' }}>
                       Put on sale
-                    </Button>
+                    </Button> */}
                     <Button onClick={() => burnToken(item.TokenID)}>Burn</Button>
                   </div>
                 </div>

@@ -11,6 +11,8 @@ import { useAccountContext } from 'contexts/accountContext';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import ReportImage from '../../../assets/report_generated.png';
+
 // import { postData } from 'utils/http';
 
 export const Download = () => {
@@ -157,7 +159,7 @@ export const Download = () => {
           <img
             style={{ borderRadius: '24px 24px 0 0' }}
             alt="example"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cXtv77N7Lp7xFOiRum0a13pcg-u7UpGnlQ&usqp=CAU"
+            src={ReportImage}
           />
         }
         actions={[
@@ -167,7 +169,7 @@ export const Download = () => {
         ]}>
         <Space direction="vertical" style={{ width: 340 }}>
           <Meta
-            title="IrisClassificationResults"
+            title="Analysis Result"
             description={
               accountState.lastMintedNft
                 ? ''
