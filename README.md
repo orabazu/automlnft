@@ -26,15 +26,19 @@ The documentation herein describes the application and presents a blue print of 
 
 ## AutoML.NFT Team
 
-- [Renato Rocha](https://github.com/renatomrocha/) (Frontend development, Backend development, System design)
+- [Albert Vo](https://github.com/albert-vo-crypto/) (Backend development, Frontend development, System design)
 
-_Lisbon, Portugal_
+_San Fransisco, CA, USA_
 
-- [Guruprasad Kamath](https://github.com/gurukamath) (Backend development, Frontend development, System design)
+- [Orhun Ozer](https://github.com/...) (Frontend development, Backend development, System design)
 
-_Düsseldorf, Deutschland_
+_Istanbul, Turkey_
 
-- [Gurdal Ertek](https://github.com/gurdalertek) (System design, System documentation)
+- [Oguzhan Ozer](https://github.com/...) (ML Engine development, Algorithm design)
+
+_Ankara, Turkey_
+
+- [Gurdal Ertek](https://github.com/gurdalertek) (System design, System documentation, Algorithm design)
 
 _Al Ain, United Arab Emirates_
 
