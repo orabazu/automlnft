@@ -8,7 +8,7 @@ This documentation presents details on the AutoML.NFT dapp and project.
 
 ## Start Here:
 
-- [**AutoML.NFT Dapp**](https://lucid-mayer-4a70a5.netlify.app/) is running live under github.io.
+- [**AutoML.NFT Dapp**](https://lucid-mayer-4a70a5.netlify.app/) is running live on the cloud.
 - [**Documentation**](./doc/Documentation.md) describes the project and the dapp.
 - [**YouTube Video**](https://youtu.be/CwoCla53aFI) is the demo video for the hackathon.
 
