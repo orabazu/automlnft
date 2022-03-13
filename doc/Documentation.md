@@ -2,7 +2,7 @@
 
 ## Documentation
 
-[AutoMLNFT app](https://github.com/albert-vo-crypto/automlnft) is **a Machine Learning as a Service (MLaaS) platform** to interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought.
+[AutoML.NFT app](https://github.com/albert-vo-crypto/automlnft) is **a Machine Learning as a Service (MLaaS) platform** to interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought.
 
 This documentation presents details on the AutoMLNFT dapp and project.
 
