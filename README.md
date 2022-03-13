@@ -38,7 +38,7 @@ The documentation herein describes the application and presents a blue print of 
 
 _San Fransisco, CA, USA_
 
-- [Orhun Ozer](https://github.com/...) (Frontend development, Smart contracts, UI design)
+- [Orhun Ozer](https://github.com/zhunor) (Frontend development, Smart contracts, UI design)
 
 _Istanbul, Turkey_
 
