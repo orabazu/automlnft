@@ -12,9 +12,11 @@
 
 ## Executive Summary
   
-[AutoML.NFT app](https://github.com/albert-vo-crypto/automlnft) is **a Machine Learning as a Service (MLaaS) platform** to interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought.
+[AutoML.NFT app](https://github.com/albert-vo-crypto/automlnft) is **a Machine Learning as a Service (MLaaS) platform** to interactively and dynamically **generate Machine Learning (ML) report** for uploaded data files, and **issue NFT tokens** on the [XRP Ledger](https://xrpl.org/index.html) as certificate of ownership. AutoMLNFT also provides an analytical marketplace, where legal ownership of ML reports can be bought. The project also provides a template for XRPL and other blockchains on how MLaaS dapps with innovative features can be developed on the blockchain.
 
-The app was designed, developed, and implemented during the period of [XRPL NFT Hackathon](https://xrplnft.devpost.com/) by the project team. This documentation describes the application and presents a blue print of how the system can be developed into the future over an extended time period. The design also provides a template for XRPL and other blockchains on how MLaaS dapps with innovative features can be developed on the blockchain.
+The app was designed, developed, and implemented during the period of [XRPL NFT Hackathon](https://xrplnft.devpost.com/) by the project team. 
+
+The documentation herein describes the application and presents a blue print of how the system can be developed into the future over an extended time period. 
 
 ## AutoML.NFT Screenshots
 
@@ -22,7 +24,7 @@ The app was designed, developed, and implemented during the period of [XRPL NFT 
 
 ![Stacked Area Chart](./doc/img/AvalyticsScreenshotStackedAreaChartNew.png)
 
-## Avalytics Team
+## AutoML.NFT Team
 
 - [Renato Rocha](https://github.com/renatomrocha/) (Frontend development, Backend development, System design)
 
