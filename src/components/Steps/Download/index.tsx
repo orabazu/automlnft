@@ -185,7 +185,7 @@ export const Download = () => {
               {onSale && (
                 <Space direction="vertical">
                   <Text type="secondary" className="subtitle">
-                    Enter price to allow users instantly purchase your NFT
+                    Enter price to allow users instantly buy your NFT
                   </Text>
 
                   <div

@@ -5,6 +5,7 @@ import './TargetSelection.scss';
 import { SmileOutlined } from '@ant-design/icons';
 import { Button, Modal, notification, Select, Space, Table } from 'antd';
 import Text from 'antd/lib/typography/Text';
+import Title from 'antd/lib/typography/Title';
 import Advertisement from 'assets/advertisement.gif';
 import {
   DataColumnType,
@@ -151,11 +152,11 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
           payload: false,
         });
         notification.open({
-          message: 'Calculations are done.',
+          message: 'ML computations are completed.',
           placement: 'bottomRight',
           icon: <SmileOutlined style={{ color: '#108ee9' }} />,
         });
-      }, 3000);
+      }, 7000);
     } else {
       // call backend
     }
@@ -170,6 +171,7 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
 
   return (
     <>
+      {<Title level={3}>Select the data type for each attribute and role</Title>}
       <Table
         className="TargetSelection"
         size="small"
@@ -198,7 +200,7 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
 
       <div className="flex">
         <Button onClick={startCalculation} className="btn-fancy">
-          Start Calculation
+          Run machine learning (ML) computations
         </Button>
       </div>
 
@@ -209,9 +211,9 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
         closable={false}
         // onOk={() => setIsModalVisible(false)}
         // onCancel={}
-        width={780}>
+        width={'100vw'}>
         <p>Running machine learning calculations ...</p>
-        <p>Sponsored by</p>
+        <p>Sponsored by MintNFT.com</p>
         <img src={Advertisement} />
       </Modal>
     </>

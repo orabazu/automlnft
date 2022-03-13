@@ -172,7 +172,7 @@ export const Results = () => {
 
         <div className="flex results-action">
           <Button className="btn-fancy" onClick={openPurchaseForm} loading={isLoading}>
-            I want to purchase full report
+            I want to buy full report
           </Button>
           <Button style={{ color: `red` }} loading={isLoading}>
             I need better results, delete my data
@@ -199,7 +199,12 @@ export const Results = () => {
               <p>Transaction Cost: {transactionCost} XRP</p>
               <p>Minting Cost: {transactionCost} XRP</p>
               <p>Report&apos;s price: 10 XRP</p>
-              <p>Total: {transactionCost + 10} XRP</p>
+              <p>
+                Total:{' '}
+                <span style={{ fontWeight: 'bold', color: 'black' }}>
+                  {transactionCost + 10} XRP
+                </span>
+              </p>
               <p>
                 Your balance after transaction:{' '}
                 {accountState.account!.balance - (transactionCost + transactionCost + 10)}{' '}
@@ -214,7 +219,7 @@ export const Results = () => {
                 key="buy"
                 loading={isLoading}
                 disabled={isTransactionComplete}>
-                Buy Report
+                Buy the generated report
               </Button>
             </div>
           </Space>
