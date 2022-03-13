@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
 import './TargetSelection.scss';
@@ -7,12 +8,14 @@ import { Button, Modal, notification, Select, Space, Table } from 'antd';
 import Text from 'antd/lib/typography/Text';
 import Title from 'antd/lib/typography/Title';
 import Advertisement from 'assets/advertisement.gif';
+import advertisementVideo from 'assets/advertisement.mp4';
 import {
   DataColumnType,
   DataType,
   EditableCell,
   RoleType,
 } from 'components/EditableCell';
+import VideoJS from 'components/VideoJS';
 import { useAccountContext } from 'contexts/accountContext';
 import React, { useEffect, useMemo, useState } from 'react';
 import { AccountActionTypes } from 'reducers/accountReducer';
@@ -156,7 +159,7 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
           placement: 'bottomRight',
           icon: <SmileOutlined style={{ color: '#108ee9' }} />,
         });
-      }, 7000);
+      }, 10000);
     } else {
       // call backend
     }
@@ -168,6 +171,35 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
       payload: true,
     });
   }, []);
+
+  const playerRef = React.useRef(null);
+
+  const videoJsOptions = {
+    // lookup the options in the docs for more options
+    autoplay: true,
+    controls: false,
+    responsive: true,
+    fluid: true,
+    sources: [
+      {
+        src: advertisementVideo,
+        type: 'video/mp4',
+      },
+    ],
+  };
+
+  const handlePlayerReady = (player: any) => {
+    playerRef.current = player;
+
+    // you can handle player events here
+    player.on('waiting', () => {
+      console.log('player is waiting');
+    });
+
+    player.on('dispose', () => {
+      console.log('player will dispose');
+    });
+  };
 
   return (
     <>
@@ -214,7 +246,9 @@ export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
         width={'100vw'}>
         <p>Running machine learning calculations ...</p>
         <p>Sponsored by MintNFT.com</p>
-        <img src={Advertisement} />
+        <VideoJS options={videoJsOptions} onReady={handlePlayerReady} />
+        {/* 
+        <img src={Advertisement} /> */}
       </Modal>
     </>
   );
