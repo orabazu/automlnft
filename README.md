@@ -26,11 +26,11 @@ The documentation herein describes the application and presents a blue print of 
 
 ## AutoML.NFT Team
 
-- [Albert Vo](https://github.com/albert-vo-crypto/) (Backend development, Frontend development, System design)
+- [Albert Vo](https://github.com/albert-vo-crypto/) (Backend development, Smart contracts, System design)
 
 _San Fransisco, CA, USA_
 
-- [Orhun Ozer](https://github.com/...) (Frontend development, Backend development, System design)
+- [Orhun Ozer](https://github.com/...) (Frontend development, Smart contracts, UI design)
 
 _Istanbul, Turkey_
 
@@ -38,7 +38,7 @@ _Istanbul, Turkey_
 
 _Ankara, Turkey_
 
-- [Gurdal Ertek](https://github.com/gurdalertek) (System design, System documentation, Algorithm design)
+- [Gurdal Ertek](https://github.com/gurdalertek) (System design, UI design, Algorithm design, System documentation)
 
 _Al Ain, United Arab Emirates_
 
