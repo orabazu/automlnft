@@ -1,4 +1,6 @@
-# Machine Learning as a Service on the XRP Ledger
+![AutoMLNFT Logo](./doc/img/logo.png) 
+
+## Automate your ML, get your results as NFT
 
 <hline>
 </hline>
