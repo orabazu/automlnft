@@ -1,4 +1,4 @@
-![AutoMLNFT Logo](./img/AutoMLNFTLogoMini.png) 
+![AutoMLNFT Logo](./img/logo.png) 
 
 ## Documentation
 
