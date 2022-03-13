@@ -7,7 +7,7 @@
 
 - [**AutoML.NFT Dapp**](https://lucid-mayer-4a70a5.netlify.app/) is running live under github.io.
 - [**Documentation**](./doc/Documentation.md) describes the project and the dapp.
-- [**YouTube Video**](https://...) is the pitch deck & video with a demo.
+- [**YouTube Video**](https://...) is the demo video for the hackathon.
 
 
 ## Executive Summary
@@ -20,9 +20,9 @@ The documentation herein describes the application and presents a blue print of 
 
 ## AutoML.NFT Screenshots
 
-![Bar Chart Race](./doc/img/AvalyticsScreenshotBarChartRace.png)
+![Screen01](./doc/img/Screen01.png)
 
-![Stacked Area Chart](./doc/img/AvalyticsScreenshotStackedAreaChartNew.png)
+![Screen05](./doc/img/Screen05.png)
 
 ## AutoML.NFT Team
 
