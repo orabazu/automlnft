@@ -82,3 +82,11 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 chmod +x Anaconda3-2021.05-Linux-x86_64.sh
 run Anaconda3-2021.05-Linux-x86_64.sh
 ```
+
+### Install python packages
+``` bash
+conda install seaborn
+conda install missingno
+conda install xelatex
+conda install Flask
+```
