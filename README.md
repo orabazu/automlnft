@@ -42,7 +42,7 @@ _San Fransisco, CA, USA_
 
 _Istanbul, Turkey_
 
-- [Oguzhan Ozer](https://github.com/...) (ML Engine development, Algorithm design)
+- [Oguzhan Ozer](https://github.com/oguzhanoozer) (ML Engine development, Algorithm design)
 
 _Ankara, Turkey_
 
