@@ -2,7 +2,7 @@
 
 ## Automate your ML, get your results as NFT
 
-Welcome to the documentation of AutoML.NFT dapp.
+Welcome to the home page of the AutoML.NFT dapp.
 
 <hline>
 </hline>
