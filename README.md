@@ -1,6 +1,6 @@
 ![AutoMLNFT Logo](./doc/img/logo.png) 
 
-## Automate your ML, get your results as NFT
+Automate your ML, get your results as NFT
 
 <hline>
 </hline>
