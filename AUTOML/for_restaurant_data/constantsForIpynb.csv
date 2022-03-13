@@ -1,4 +1,4 @@
 ﻿constant_key,constant_value
 MESSAGES_FILE_NAME,messages.csv
-DATA_INFO_FILE_PATH,dataFolder\datainfo.csv
-DATASET_FILE_PATH,dataFolder\dataset.xlsx
+DATA_INFO_FILE_PATH,dataFolder/datainfo.csv
+DATASET_FILE_PATH,dataFolder/dataset.xlsx
