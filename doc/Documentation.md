@@ -12,7 +12,7 @@ This documentation presents details on the AutoML.NFT dapp and project.
 - [**Documentation**](./doc/Documentation.md) describes the project and the dapp.
 - [**YouTube Video**](https://youtu.be/CwoCla53aFI) is the demo video for the hackathon.
 
-**Index**
+## Index
 
 1. [Background](Background.md)
 2. [Unique Value Offerings](UniqueValueOfferings.md)
