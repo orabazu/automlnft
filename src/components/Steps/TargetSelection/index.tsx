@@ -1,16 +1,25 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
 import './TargetSelection.scss';
 
-import { Select, Space, Table } from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
+import { Button, Modal, notification, Select, Space, Table } from 'antd';
 import Text from 'antd/lib/typography/Text';
-import mockData from 'assets/mockData.json';
+import Advertisement from 'assets/advertisement.gif';
 import {
   DataColumnType,
   DataType,
   EditableCell,
   RoleType,
 } from 'components/EditableCell';
+import { useAccountContext } from 'contexts/accountContext';
 import React, { useEffect, useMemo, useState } from 'react';
+import { AccountActionTypes } from 'reducers/accountReducer';
+import { HeadersType, RowType } from 'views/ReportGenerator';
+
+type TargetSelectionProps = {
+  data: RowType;
+};
 
 export type TargetSelectionData = {
   field: string;
@@ -18,8 +27,13 @@ export type TargetSelectionData = {
   role: RoleType;
 };
 
-export const TargetSelection = () => {
+export const TargetSelection: React.FC<TargetSelectionProps> = ({ data }) => {
   const [rows, setRows] = useState<TargetSelectionData[]>([]);
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isCalculated, setisCalculated] = useState(false);
+  const [accountState, accountDispatch] = useAccountContext();
+  const IsMockData = true;
 
   const staticColumns = [
     {
@@ -76,7 +90,7 @@ export const TargetSelection = () => {
 
   useEffect(() => {
     const rows = [];
-    const sampleData = mockData[0];
+    const sampleData = data[0];
     for (const [key, value] of Object.entries(sampleData)) {
       if (typeof value === 'number') {
         rows.push({
@@ -125,6 +139,35 @@ export const TargetSelection = () => {
         return '';
     }
   };
+
+  const startCalculation = () => {
+    if (IsMockData) {
+      setIsModalVisible(true);
+      setTimeout(() => {
+        setIsModalVisible(false);
+        setisCalculated(true);
+        accountDispatch({
+          type: AccountActionTypes.SET_IS_NEXT_BUTTON_DISABLED,
+          payload: false,
+        });
+        notification.open({
+          message: 'Calculations are done.',
+          placement: 'bottomRight',
+          icon: <SmileOutlined style={{ color: '#108ee9' }} />,
+        });
+      }, 3000);
+    } else {
+      // call backend
+    }
+  };
+
+  useEffect(() => {
+    accountDispatch({
+      type: AccountActionTypes.SET_IS_NEXT_BUTTON_DISABLED,
+      payload: true,
+    });
+  }, []);
+
   return (
     <>
       <Table
@@ -146,11 +189,31 @@ export const TargetSelection = () => {
             Select the target value of interest for <Text code>{categoricalTarget}</Text>:
           </Text>
           <Select style={{ width: 120 }}>
-            <Select.Option value={1}>Excellent</Select.Option>
-            <Select.Option value={2}>Good</Select.Option>
+            <Select.Option value={1}>Iris-setosa</Select.Option>
+            <Select.Option value={2}>Iris-versicolor</Select.Option>
+            <Select.Option value={2}>Iris-virginica</Select.Option>
           </Select>
         </Space>
       )}
+
+      <div className="flex">
+        <Button onClick={startCalculation} className="btn-fancy">
+          Start Calculation
+        </Button>
+      </div>
+
+      <Modal
+        centered
+        visible={isModalVisible}
+        footer={null}
+        closable={false}
+        // onOk={() => setIsModalVisible(false)}
+        // onCancel={}
+        width={780}>
+        <p>Running machine learning calculations ...</p>
+        <p>Sponsored by</p>
+        <img src={Advertisement} />
+      </Modal>
     </>
   );
 };

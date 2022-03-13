@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { InputNumber, Select } from 'antd';
+import { TargetSelectionData } from 'components/Steps/TargetSelection';
 import React from 'react';
-import { TargetSelectionData } from 'views/Steps/TargetSelection';
 interface EditableCellProps extends React.HTMLAttributes<HTMLElement> {
   handleChange: (
     value: DataType | RoleType,
@@ -44,7 +44,6 @@ export const EditableCell: React.FC<EditableCellProps> = ({
   ...restProps
 }) => {
   let content;
-  console.log('isTargetSelected', isTargetSelected);
   if (editable) {
     content =
       columnType === 'role' ? (

@@ -1,0 +1,39 @@
+li.ant-list-item {
+  background: white;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.owned {
+  background: -webkit-linear-gradient(
+    0deg,
+    #096dd9 -5.04%,
+    #e97902 46.01%,
+    #1890ff 96.01%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 0.25rem;
+}
+
+.Hero {
+  > .ant-result-icon {
+    display: none;
+  }
+}
+
+.NFTList {
+  padding: 20px 50px;
+  max-width: 815px;
+  margin: auto;
+}
+
+.NFTCard {
+  padding: 30px !important;
+}

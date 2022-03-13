@@ -8,7 +8,12 @@
 
 .button-color {
   background-color: $primary-color;
-  color: white;
+  color: $white;
+}
+
+.button-fancy {
+  background: linear-gradient(77deg, #096dd9 -8.72%, #1890ff 120.58%) !important;
+  color: $white !important;
 }
 
 .ant-btn {
@@ -51,6 +56,26 @@
   }
 }
 
+.btn-fancy {
+  @extend .button-fancy;
+
+  &:hover {
+    opacity: 0.65;
+    @extend .button-fancy;
+  }
+
+  &:active {
+    opacity: 0.85;
+    transform: translateY(1px);
+    box-shadow: none;
+    @extend .button-fancy;
+  }
+
+  &:focus {
+    @extend .button-fancy;
+  }
+}
+
 .ant-btn-default {
   background: $light-gray;
   &:hover {
@@ -79,4 +104,44 @@
 
 .negative {
   background: #fc9ca1;
+}
+
+.Hero {
+  background: radial-gradient(94.32% 94.6% at 4.04% -44.6%, #7ec1ff 0%, #002b5e00 100%),
+    linear-gradient(0deg, #ffffff, #e6f7ff);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 3px solid $light-gray;
+}
+
+input {
+  border-radius: 14px !important;
+}
+
+.modal-action {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.heading {
+  background: -webkit-linear-gradient(341deg, #096dd9 30.01%, #e97902 70.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 0.25rem;
 }

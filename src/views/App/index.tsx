@@ -1,59 +1,37 @@
-import { Button, PageHeader } from 'antd';
-import Logo from 'assets/logo.png';
-import { Wizard } from 'components/Wizard';
+import { Result } from 'antd';
+import Header from 'components/Header';
 import React from 'react';
-import { Download } from 'views/Steps/Download';
-import { Results } from 'views/Steps/Results';
-import { TargetSelection } from 'views/Steps/TargetSelection';
-import { TimeSpan } from 'views/Steps/TimeSpan';
-import UploadData from 'views/Steps/UploadData';
-import WelcomeStep from 'views/Steps/WelcomeStep';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Dashboard from 'views/Dashboard';
+import { MarketPlace } from 'views/Marketplace';
+import ReportGenerator from 'views/ReportGenerator';
+
+import { AccountContextProvider } from '../../contexts/accountContext';
 
 function App() {
-  const steps = [
-    {
-      title: 'Connect Wallet',
-      content: <WelcomeStep />,
-    },
-    {
-      title: 'Upload Data',
-      content: <UploadData />,
-    },
-    {
-      title: 'Time Span',
-      content: <TimeSpan />,
-    },
-    {
-      title: 'See Results',
-      content: <Results />,
-    },
-    {
-      title: 'Full Report',
-      content: <TargetSelection />,
-    },
-    {
-      title: 'Download',
-      content: <Download />,
-    },
-  ];
-
   return (
     <div className="App">
-      <PageHeader
-        ghost={false}
-        avatar={{
-          src: Logo,
-        }}
-        title="AutoML"
-        subTitle="Automate your ML, get your results as NFT"
-        extra={[
-          <Button key="1" type="primary">
-            Connect Wallet
-          </Button>,
-        ]}></PageHeader>
-      <div className="body">
-        <Wizard steps={steps} />
-      </div>
+      <AccountContextProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Header />}>
+              <Route index element={<Dashboard />} />
+              <Route path="generate-report" element={<ReportGenerator />} />
+              <Route path="marketplace" element={<MarketPlace />} />
+            </Route>
+            <Route
+              path="*"
+              element={
+                <Result
+                  status="404"
+                  title="404"
+                  subTitle="Sorry, the page you visited does not exist."
+                />
+              }
+            />
+          </Routes>
+        </BrowserRouter>
+      </AccountContextProvider>
     </div>
   );
 }
