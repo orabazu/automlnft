@@ -11,7 +11,7 @@
 
  
 
-# Sending cold address AccountSet transaction...
+### Sending cold address AccountSet transaction...
     Response(status=<ResponseStatus.SUCCESS: 'success'>, result={'Account': 'r9WRuv4gPyxyM9PEvHWAieTTYyPxwTY6NE', 'Domain': '6578616D706C652E636F6D', 'Fee': '10', 'Flags': 0, 'LastLedgerSequence': 25213827, 'Sequence': 25213804, 'SetFlag': 8, 'SigningPubKey': 'ED525F36CDCCD619B63AD1C27624EF98C0B48C40F6B5E5CC26BCDBEFD62DA7CB2F', 'TickSize': 5, 'TransactionType': 'AccountSet', 'TransferRate': 0, 'TxnSignature': '3BCE0CA3201145082C25A0A8419A9C5CB8AA65A45EDB119E6CB74343C57C5F059421E7B71B110D278FFCF0C5C4D8D7EEDD7C5270E4BD50A1DDB81450F8DFA30A', 'date': 697939552, 'hash': '6B6C0CCF608E83CFFA561CF35F42186378EED36A3C5B8FA47A5B16F8790BB562', 'inLedger': 25213809, 'ledger_index': 25213809, 'meta': {'AffectedNodes': [{'ModifiedNode': {'FinalFields': {'Account': 'r9WRuv4gPyxyM9PEvHWAieTTYyPxwTY6NE', 'Balance': '999999990', 'Domain': '6578616D706C652E636F6D', 'Flags': 8388608, 'OwnerCount': 0, 'Sequence': 25213805, 'TickSize': 5}, 'LedgerEntryType': 'AccountRoot', 'LedgerIndex': '11766F586E42CBF82C02B9409A23B30348947733B3891FA2B33F0630D3FD7C24', 'PreviousFields': {'Balance': '1000000000', 'Flags': 0, 'Sequence': 25213804}, 'PreviousTxnID': '047A6165FE511ACE100EB028313E7F10FED101EB6EFC049D3A4066F05AE9D0D5', 'PreviousTxnLgrSeq': 25213804}}], 'TransactionIndex': 0, 'TransactionResult': 'tesSUCCESS'}, 'validated': True}, id=None, type=<ResponseType.RESPONSE: 'response'>)
 
  
