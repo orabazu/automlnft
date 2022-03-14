@@ -55,7 +55,56 @@ Below, sample output from console are provided for **smart contracts** for trans
 
 Below, sample output from console are provided for **IPFS and NFT minting**:
 
+### Successfully create IPFS File System
 
+![Successfully create IPFS File System](./img/Backend01.png)
+
+### Successfully generate ML Prediction Report (PDF file)
+
+![Generating ML-based Prediction Report (PDF file)](./img/Backend02.png)
+
+### Successfully Mint Token of IPFS PDF Report
+
+![Successfully Minted Token of IPFS PDF Report](./img/Backend03.png)
+
+Clicked on mintToken button 1 localhost:3000:12:10
+Clicked on mintToken button 2 localhost:3000:15:10
+Connected to Sandbox localhost:3000:17:10
+Object { id: 5, result: {…}, type: "response" }
+id: 5
+result: Object { account: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", ledger_current_index: 960542, validated: false, … }
+account: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA"
+account_nfts: Array(6) [ {…}, {…}, {…}, … ]
+0: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA0000099B00000000", … }
+1: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA16E5DA9C00000001", … }
+2: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA2DCBAB9D00000002", … }
+3: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA44B17C9E00000003", … }
+4: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA727D1EA000000005", … }
+5: Object { Flags: 1, Issuer: "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", TokenID: "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA8962EFA100000006", … }
+length: 6
+<prototype>: Array []
+ledger_current_index: 960542
+validated: false
+<prototype>: Object { … }
+type: "response"
+<prototype>: Object { … }
+localhost:3000:36:10
+Transaction result: tesSUCCESS localhost:3000:39:10
+Balance changes: [ { "account": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "balances": [ { "currency": "XRP", "value": "-0.000012" } ] } ]
+
+    
+### Successfully create Sell Offer
+
+![Successfully create Sell Offer](./img/Backend04.png)
+    
+Connected to Sandbox localhost:3000:102:10
+***Sell Offers*** localhost:3000:118:11
+{ "id": 7, "result": { "offers": [ { "amount": "12345", "flags": 1, "index": "E463FE655DE9D0506DC858D80664BA063FE7BA3D5A3F09A985781B258D8DF2DA", "owner": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA" } ], "tokenid": "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA8962EFA100000006" }, "type": "response" } localhost:3000:128:11
+***Buy Offers*** localhost:3000:129:11
+No buy offers. localhost:3000:136:13
+undefined localhost:3000:138:11
+Transaction result: "tesSUCCESS" localhost:3000:141:11
+Balance changes: [ { "account": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "balances": [ { "currency": "XRP", "value": "-0.000012" } ] } ]
 
 **Index**
 
