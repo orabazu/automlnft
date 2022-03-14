@@ -19,8 +19,8 @@ The most relevant benchmark to the project in the blockchain world is the [Ocean
 2. **Unique Value Offerings**
 3. [Design Principles](DesignPrinciples.md)
 4. [System Architecture](SystemArchitecture.md)
-5. [Backend: Data under Moralis](Backend.md)
-6. [Frontend: UI and Visual Analytics](Frontend.md)
+5. [Backend](Backend.md)
+6. [Frontend](Frontend.md)
 7. [Technology/Tool Stack](TechnologyStack.md)
 8. [Related Projects](RelatedProjects.md)
 9. [Other Resources](OtherResources.md)
