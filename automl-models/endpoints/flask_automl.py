@@ -1,5 +1,7 @@
+#!/usr/bin/python3
 # Access it by running it, then going to whatever port its running on (It'll say which port it's running on).
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
