@@ -23,6 +23,7 @@ import os
 cls = lambda: os.system('cls')
 cls()
 
+
 #Importing warnings library.
 import warnings 
 warnings.filterwarnings("ignore")
@@ -44,7 +45,7 @@ class readContants():
         super().__init__()        
          # open second page as next page
         import csv
-        reader = csv.reader(open('constantsForIpynb.csv', 'r'))        
+        reader = csv.reader(open('/home/ubuntu/automlnft/automl-models/for_iris_data/constantsForIpynb.csv', 'r'))        
         for row in reader:
             k, v = row
             k=k+""

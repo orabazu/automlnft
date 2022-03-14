@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/ubuntu/anaconda3/bin/python
 # Access it by running it, then going to whatever port its running on (It'll say which port it's running on).
 from flask import Flask
 import subprocess
@@ -22,7 +22,8 @@ def automl():
     (out2, err) = proc2.communicate()
     #return 'AutoML Processing! ..... ' + out
     #res = out + out2
-    res = out2
+    res = out
+    #res = out2
     return res
 
 @app.route('/mlreport')
