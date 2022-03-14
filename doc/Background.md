@@ -16,7 +16,7 @@ The solution to this problem of intense human labor requirement is Automated Mac
 
 There exist a multitude of AutoML platforms, most of which are available as cloud services, i.e., are Machine Learning as a Service (MLaaS) platforms. The following figure shows some the existing MLaaS AutoML platforms in the market. Theese platforms that provide excellent support to analysts in business, industry, and governemnt. Notable systems are shown in the figure below. 
 
-![Project Intro](./img/Slide05.png) 
+![Benchmark with Other AutoML Platforms](./img/Slide05.png) 
 
 Given the increase in the amount of data and the need to process and capitalize on data, AutoML has a promising future. Yet, there is another field of technology, specifically information technology, that has also big potential: Blockchain. While the mentioned platforms are excellent, we, as the developer team, did _not_ encounter an AutoML or MLaaS platform that is designed with Web 3.0 in mind. 
 
