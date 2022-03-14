@@ -1,6 +1,18 @@
-![Avalytics Logo](./img/AvalyticsLogoMini.png) ![Avalytics Logo](./img/AvalyticsLogo1Mini.png)
+![AutoMLNFT Logo](./img/logo.png) 
 
-## Background: Avalanche, C-Chain, Moralis, and Avalytics
+## Background
+
+Machine learning is a type of artificial intelligence (AI) where machines learn from data to discover insights, make predictions, and prescribe answers. ML is essential to business, government, and other industries, even though its full potential has not been actualized. Many of top technology companies apply and thrive on ML: Google uses Natural Language Processing (NLP) to predict what terms and web content the user may be searching for; Amazon uses association mining to identify items that are searched and/or purchased together, to make cross-sale and up-sale recommendations to users; Meta analyzes huge amounts of personal data, collected from Facebook, WhatsApp, Instagram, and SnapChat, to show the most relevant content and advertisements to its customers.
+
+The figure below shows the past, present and future of information technology (IT) and AI, with respect to availability of data, techniques, and level/nature of analyses. As of 2022, the state of IT and AI can be argued to be in the "Post-IT" stage, where there is abundant data and techniques, yet analysis is only basic. Over time, there will be tools to facilitate analysis, such that the level of analysis goes to sufficient and eventually becomes efficient.
+
+![Past Present Future of AI](./img/Slide02.png) 
+![Pain Point](./img/Slide03.png) 
+
+![Project Intro](./img/Slide01.png) 
+
+![AutoML.NFT Project Team](./img/Slide05.png) 
+
 
 [Avalanche](https://www.avax.network) is the one of the most popular Layer 1 blockchain networks in the world, which has unique advantages over other blockchain. Most importantly, Avalanche is one of the top Layer 1 networks which has resolved the ["blockchain trilemma"](https://www.gemini.com/cryptopedia/blockchain-trilemma-decentralization-scalability-definition), by achieving decentralization, scalability, and security at the same time.
 
@@ -22,8 +34,8 @@ There exist multiple block explorers and dashboards that provide data and insigh
 2. [Unique Value Offerings](UniqueValueOfferings.md)
 3. [Design Principles](DesignPrinciples.md)
 4. [System Architecture](SystemArchitecture.md)
-5. [Backend: Data under Moralis](Backend.md)
-6. [Frontend: UI and Visual Analytics](Frontend.md)
+5. [Backend](Backend.md)
+6. [Frontend](Frontend.md)
 7. [Technology/Tool Stack](TechnologyStack.md)
 8. [Related Projects](RelatedProjects.md)
 9. [Other Resources](OtherResources.md)
