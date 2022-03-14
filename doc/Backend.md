@@ -93,7 +93,7 @@ Transaction result: tesSUCCESS localhost:3000:39:10
 Balance changes: [ { "account": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "balances": [ { "currency": "XRP", "value": "-0.000012" } ] } ]
 
     
-### Successfully create Sell Offer
+### Successfully Create Sell Offer
 
 ![Successfully create Sell Offer](./img/Backend04.png)
     
@@ -106,6 +106,16 @@ undefined localhost:3000:138:11
 Transaction result: "tesSUCCESS" localhost:3000:141:11
 Balance changes: [ { "account": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "balances": [ { "currency": "XRP", "value": "-0.000012" } ] } ]
 
+    
+### Successfully Accept Sell Offer
+
+![Successfully Accept Sell Offer](./img/Backend05.png)
+    
+Connected to Sandbox localhost:3000:304:10
+{ "id": 7, "result": { "account": "ra4tk4FgrsqawrjjgwdQkHYEpxy8qTpfyw", "account_nfts": [ { "Flags": 1, "Issuer": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "TokenID": "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA5B974D9F00000004", "TokenTaxon": 0, "URI": "697066733A2F2F62616679626569676479727A74357366703775646D37687537367568377932366E6634646675796C71616266336F636C67747179353566627A6469", "nft_serial": 4 }, { "Flags": 1, "Issuer": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "TokenID": "000100003102ACAFA76F1D2406C47584B6629C8CFA5E70CA8962EFA100000006", "TokenTaxon": 0, "URI": "68747470733A2F2F697066732E696F2F697066732F516D58705A385256336D4B764B415065436336484C78674A48375335524A696145747965485A6B756E52766F4E753F66696C656E616D653D585250253230507269636525323050726564696374696F6E253230323032322E706466", "nft_serial": 6 } ], "ledger_current_index": 960600, "validated": false }, "type": "response" } localhost:3000:318:11
+Transaction result: "tesSUCCESS" localhost:3000:321:11
+Balance changes: [ { "account": "ra4tk4FgrsqawrjjgwdQkHYEpxy8qTpfyw", "balances": [ { "currency": "XRP", "value": "-0.012357" } ] }, { "account": "rn79KNQEKXciRyciKWfxCrb3m6HCs3d2MA", "balances": [ { "currency": "XRP", "value": "0.012345" } ] } ]
+    
 **Index**
 
 1. [Background](Background.md)
