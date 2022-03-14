@@ -1,6 +1,6 @@
 #!/home/ubuntu/anaconda3/bin/python
-#Importing the libraries to be used.
-#Importing pandas library.
+# Importing the libraries to be used.
+# Importing pandas library.
 import pandas as pd
 #Importing numpy library.
 import numpy as np
