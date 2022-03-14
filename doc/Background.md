@@ -40,7 +40,7 @@ Our team consists of professionals from varying backgrounds, united with the eth
 7. [Technology/Tool Stack](TechnologyStack.md)
 8. [Related Projects](RelatedProjects.md)
 9. [Other Resources](OtherResources.md)
-10. [Future Plans for Avalytics](FuturePlans.md)
+10. [Future Plans](FuturePlans.md)
 
 <hline></hline>
 
