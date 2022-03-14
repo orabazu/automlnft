@@ -55,17 +55,17 @@ Below, sample output from console are provided for **smart contracts** for trans
 
 Below, sample output from console are provided for **IPFS and NFT minting**:
 
-### Successfully create IPFS File System
+### Successfully Create IPFS File System
 
-![Successfully create IPFS File System](./img/Backend01.png)
+![Successfully Create IPFS File System](./img/Backend01.png)
 
-### Successfully generate ML Prediction Report (PDF file)
+### Successfully Generate ML Prediction Report (PDF file)
 
-![Generating ML-based Prediction Report (PDF file)](./img/Backend02.png)
+![Successfully Generate ML-based Prediction Report (PDF file)](./img/Backend02.png)
 
 ### Successfully Mint Token of IPFS PDF Report
 
-![Successfully Minted Token of IPFS PDF Report](./img/Backend03.png)
+![Successfully Mint Token of IPFS PDF Report](./img/Backend03.png)
 
 Clicked on mintToken button 1 localhost:3000:12:10
 Clicked on mintToken button 2 localhost:3000:15:10
