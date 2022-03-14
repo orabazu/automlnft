@@ -1,21 +1,22 @@
 ![Avalytics Logo](./img/AvalyticsLogoMini.png) ![Avalytics Logo](./img/AvalyticsLogo1Mini.png)
 
-## Frontend: UI and Visual Analytics
+## Frontend
 
-This section describes the basic design of the user interface (UI) for the Avalytics app and the visual analytics methods used. 
+This section describes the basic design of the user interface (UI) for the dapp. 
 
-There are four main screens/interfaces in the app:
+There are four main screens/interfaces in the dapp:
 
 - **Dashboard:** Basic information about top tokens on Avalanche C-Chain, including Market Cap (Top 5), top Gainers and Losers.  (under the `Dashboard` tab)
 - **Tokens:** Price charts for individual tokens, both as line charts and [candlestick charts](https://www.coingecko.com/buzz/how-to-read-candlestick-charts). The charts can be filtered for selected time period and time resolution.  (under the `Tokens` tab)
 - **Multiple Tokens:** Price changes and analytics for multiple tokens at once. Includes timeline visualization, correlation, and bar chart animation. (under the `Multiple Tokens` tab)
 - **Pools:** Analytics for  [liquidity pools](https://traderjoexyz.com/pool) in the [TraderJoe](https://traderjoexyz.com) decentralized exchange (DEX). (under the `Pools` tab)
 
-
-The main library to be used for visualizations are selected as [D3.js](https://d3js.org) and [Flourish Studio](https://flourish.studio/): 
-- [D3 Visualization Gallery](https://observablehq.com/@d3/gallery) (JavaScript library for manipulating documents based on data)
-- [Flourish Studio](https://flourish.studio/) (JavaScript library and platform for creating interactive charts, maps, and stories from data)
-
+We found out about Vite and wanted to have a boilerplate for the technologies that we used. You can find more about these in the following links: 
+- [Vite](https://github.com/vitejs/vite) 
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 **Index**
 
