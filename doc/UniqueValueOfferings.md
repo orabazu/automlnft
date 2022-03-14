@@ -1,4 +1,4 @@
-![Avalytics Logo](./img/AvalyticsLogoMini.png) ![Avalytics Logo](./img/AvalyticsLogo1Mini.png)
+![AutoMLNFT Logo](./img/logo.png) 
 
 ## Unique Value Offerings
 
