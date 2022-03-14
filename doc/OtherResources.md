@@ -4,7 +4,7 @@
 
 **Other AutoML Tools**
 
-The following are additional AutoML tools, which also include R packages and Python libraries:
+The following are **other AutoML tools**, which also include R packages and Python libraries:
 
 ![Other AutoMLNFT Tools](./img/additional_automl_tools.png) 
 
