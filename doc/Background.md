@@ -24,7 +24,7 @@ Our experience as the project team on data science and ML and ML platforms, havi
 
 ![Project Intro](./img/Slide01.png) 
 
-Our team consists of IT veterans and professionals with varying backgrounds:
+Our team consists of professionals from varying backgrounds, united with the ethos of creating value through innovation.
 
 ![AutoML.NFT Project Team](./img/Slide06.png) 
 
