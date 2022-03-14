@@ -28,7 +28,7 @@ In the flowcharts, the following symbols are the main building blocks:
 
 **NFT Dashboard and Buying from Marketplace**
 
-![NFT Dashboard and Buying from Marketplace](./img/4_NFT_dashboard.png)
+![NFT Dashboard](./img/4_NFT_dashboard.png)
 
 
 **Index**
