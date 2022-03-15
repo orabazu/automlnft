@@ -26,7 +26,8 @@ def treat_as_plain_text(response):
 
 @app.route('/')
 def hello_automlnft():
-    cmd ="cat /home/ubuntu/automlnft/automl-models/for_iris_data/test_output"
+    #cmd ="cat /home/ubuntu/automlnft/automl-models/for_iris_data/test_output"
+    cmd ="date"
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     (out, err) = proc.communicate()
     return out
