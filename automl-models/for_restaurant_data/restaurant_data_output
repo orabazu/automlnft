@@ -1,0 +1,170 @@
+[1mData Fields and Types
+       attrname attrtype factororresponse
+0  RestaurantID     text               id
+1  Satisfaction  numeric         response
+2     Reception  numeric           factor
+3       Service  numeric           factor
+4   WaitingTime  numeric           factor
+5   FoodQuality  numeric           factor
+6         Price  numeric           factor
+attribute_datas None
+Getting a Response Column
+response_attributes:  Satisfaction
+Getting a Non-Factor Column
+non_factor_attributesname:  ['RestaurantID']
+Getting a Factor Column
+factor_attributesname:  ['Reception' 'Service' 'WaitingTime' 'FoodQuality' 'Price']
+Getting a Nominal Type Column
+nominal_attributes:  []
+Getting a Numeric Type Column
+numeric_attributes:  ['Reception' 'Service' 'WaitingTime' 'FoodQuality' 'Price']
+Getting a Binary Type Column
+binary_attributes:  []
+[1mSample Data
+   RestaurantID  Satisfaction  Reception  ...  WaitingTime  FoodQuality  Price
+0           102             7          4  ...            7            6      5
+1            96             7          3  ...            7            6      5
+2            94             7          6  ...            7            5      5
+3             5             6          4  ...            7            5      5
+4            91             7          6  ...            5            5      5
+
+[5 rows x 7 columns]
+data head None
+Data Columns
+data columns:  Index(['RestaurantID', 'Satisfaction', 'Reception', 'Service', 'WaitingTime',
+       'FoodQuality', 'Price'],
+      dtype='object')
+[1mSummary Statistics
+Data Describe
+              count       mean        std  min   25%   50%   75%    max
+RestaurantID  107.0  54.000000  31.032241  1.0  27.5  54.0  80.5  107.0
+Satisfaction  107.0   5.121495   1.286433  1.0   4.0   5.0   6.0    7.0
+Reception     107.0   3.990654   1.085890  2.0   3.0   4.0   5.0    6.0
+Service       107.0   5.317757   0.996202  3.0   5.0   6.0   6.0    7.0
+WaitingTime   107.0   5.719626   1.257389  1.0   5.0   6.0   7.0    7.0
+FoodQuality   107.0   3.429907   0.912307  1.0   3.0   3.0   4.0    6.0
+Price         107.0   3.280374   1.752596  1.0   1.0   4.0   5.0    5.0
+data.describe None
+[1mData Count and Values
+data count:
+ RestaurantID    107
+Satisfaction    107
+Reception       107
+Service         107
+WaitingTime     107
+FoodQuality     107
+Price           107
+dtype: int64
+Data Shape
+data shape (107, 7)
+Displaying Counted Unique Values of Nominal Attributes
+Index([], dtype='object')
+data head:
+   RestaurantID  Satisfaction  Reception  ...  WaitingTime  FoodQuality  Price
+0           102             7          4  ...            7            6      5
+1            96             7          3  ...            7            6      5
+2            94             7          6  ...            7            5      5
+3             5             6          4  ...            7            5      5
+4            91             7          6  ...            5            5      5
+
+[5 rows x 7 columns]
+None
+[1mColumns to be Dropped
+dropping_columns :  ['RestaurantID']
+processing_columns :  ['Reception', 'Service', 'WaitingTime', 'FoodQuality', 'Price']
+Univariate Analysis
+[1mBox Plots for Numeric Attributes
+[1mFrequency Charts for Nominal(Categorical) Attributes
+Displaying Binary Variables
+[1mPie Charts for Nominal(Categorical) Attributes
+Display Nominal Features Value Counts on pie graph
+Correlation Between Numeric Column
+numeric_values_for_correlation:  ['Satisfaction' 'Reception' 'Service' 'WaitingTime' 'FoodQuality' 'Price']
+Matrix that involves correlation values between numeric columns
+              Satisfaction  Reception  ...  FoodQuality     Price
+Satisfaction      1.000000   0.480310  ...     0.574027  0.549632
+Reception         0.480310   1.000000  ...     0.242165  0.462399
+Service           0.514334   0.273119  ...     0.325764  0.391568
+WaitingTime       0.569491   0.412625  ...     0.435027  0.442701
+FoodQuality       0.574027   0.242165  ...     1.000000  0.401824
+Price             0.549632   0.462399  ...     0.401824  1.000000
+
+[6 rows x 6 columns]
+corr table:  None
+Analysis for Values of Nominal Attributes
+[1mFrequency Charts for Nominal(Categorical) Attributes
+[1mAnalysis of Missing(Null) Values
+[1mCheck null values and processing on data
+data null sum each attribute:
+ RestaurantID    0
+Satisfaction    0
+Reception       0
+Service         0
+WaitingTime     0
+FoodQuality     0
+Price           0
+dtype: int64
+data null sum :  0
+data shape :  (107, 7)
+data null sum:
+ RestaurantID    0
+Satisfaction    0
+Reception       0
+Service         0
+WaitingTime     0
+FoodQuality     0
+Price           0
+dtype: int64
+[1mEncoding Nominal Attributes
+data columns Index(['RestaurantID', 'Satisfaction', 'Reception', 'Service', 'WaitingTime',
+       'FoodQuality', 'Price'],
+      dtype='object')
+data columns after dropping Index(['Satisfaction', 'Reception', 'Service', 'WaitingTime', 'FoodQuality',
+       'Price'],
+      dtype='object')
+Splitting our data as test and train
+   Reception  Service  WaitingTime  FoodQuality  Price
+0       0.50     0.75     1.000000          1.0    1.0
+1       0.25     0.75     1.000000          1.0    1.0
+2       1.00     1.00     1.000000          0.8    1.0
+3       0.50     1.00     1.000000          0.8    1.0
+4       1.00     0.75     0.666667          0.8    1.0
+train data head table:  None
+[1mLinear Regression
+linear_regression_model model LinearRegression()
+Intercept: 1
+Mean Squared Error (MSE): 0.86
+Fitting 10 folds for each of 8 candidates, totalling 80 fits
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ....copy_X=True, fit_intercept=True, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=True, normalize=False; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ...copy_X=True, fit_intercept=False, normalize=True; total time=   0.0s
+[CV] END ..copy_X=True, fit_intercept=False, normalize=False; total time=   0.0s
+[CV] END ..copy_X=True, fit_intercept=False, normalize=False; total time=   0.0s
+[CV] END ..copy_X=True, fit_intercept=False, normalize=False; total time=   0.0s

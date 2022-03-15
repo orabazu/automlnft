@@ -4,6 +4,7 @@ from flask import Flask
 import subprocess
 from functools import wraps
 import os
+from flask import send_file
 
 def multiline(fn):
     @wraps(fn)
@@ -47,16 +48,19 @@ def automl_restaurant_data():
     (out, err) = proc.communicate()
     return out
 
-@app.route('/mlreport')
-def automlreport():
-    #proc3 = subprocess.Popen(["cat", "/home/ubuntu/automlnft/automl-models/for_iris_data/test_output"], stdout=subprocess.PIPE, shell=True)
-    cmd ="cat /home/ubuntu/automlnft/automl-models/for_iris_data/test_output"
-    #proc3 = subprocess.Popen(["cat", "/home/ubuntu/automlnft/automl-models/for_iris_data/test_output"], stdout=subprocess.PIPE, shell=True)
-    proc3 = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
-    out3 = proc3.communicate()[0].decode("utf-8")
-    #return 'AutoML PDF Report!'
-    response3 = app.response_class(response3=out3, status=200, mimetype='application/txt')
-    return response3
+@app.route('/automl_report_iris_data')
+def automl_report_iris_data():
+    try:
+        return send_file('/home/ubuntu/automlnft/automl-models/for_iris_data/Data_Analysis.pdf', attachment_filename='Data_Analysis.pdf')
+    except Exception as e:
+        return str(e)
+
+@app.route('/automl_report_restaurant_data')
+def automl_report_restaurant_data():
+    try:
+        return send_file('/home/ubuntu/automlnft/automl-models/for_restaurant_data/Data_Analysis.pdf', attachment_filename='Data_Analysis.pdf')
+    except Exception as e:
+        return str(e)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
