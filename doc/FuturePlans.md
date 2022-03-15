@@ -16,7 +16,7 @@
 12. On the documentation side, the developed code, especially the Javascript **code can be visually documented** using [SmartDraw's Automated Class Diagrams Extensions](htpps://www.smartdraw.com/developers/extensions/class-diagram.htm)
 13. On the documentation side, the documentation can be put into a **better format** using [GitBook](https://gitbook.com), just like the [GitBook documentation of TraderJoe](https://docs.traderjoexyz.com/main/welcome/master).
 14. Many **other opportunities** for improvement have been identified and listed through brain storming sessions and are available as internal notes.
-15. Last but not least, AutML.NFT can use **quantum computing** (only emulators, for now) to generate reports for much larger datasets quickly. [TensorFlow Quantum](https://www.tensorflow.org/quantum) and other emulators can be used for this purpose and this functionality can be enabled when quantum computers become publicly accessible.
+15. Last but not least, AutoML.NFT can use **quantum computing** (only emulators, for now) to generate reports for much larger datasets quickly. [TensorFlow Quantum](https://www.tensorflow.org/quantum) and other emulators can be used for this purpose and this functionality can be enabled when quantum computers become publicly accessible.
 
 **Index**
 
