@@ -34,6 +34,9 @@ def hello_automlnft():
 
 @app.route('/automl_iris_data_output')
 def automl_iris_data():
+    cmd0 ="/home/ubuntu/automlnft/automl-models/for_iris_data/automl.py"
+    proc = subprocess.Popen(cmd0, stdout=subprocess.PIPE, shell=True)
+    (out0, err0) = proc.communicate()
     cmd ="cat /home/ubuntu/automlnft/automl-models/for_iris_data/iris_data_output"
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     (out, err) = proc.communicate()
@@ -41,6 +44,8 @@ def automl_iris_data():
 
 @app.route('/automl_restaurant_data_output')
 def automl_restaurant_data():
+    cmd0 ="/home/ubuntu/automlnft/automl-models/for_restaurant_data/automl.py"
+    proc = subprocess.Popen(cmd0, stdout=subprocess.PIPE, shell=True)
     cmd ="cat /home/ubuntu/automlnft/automl-models/for_restaurant_data/restaurant_data_output"
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     (out, err) = proc.communicate()
