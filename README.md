@@ -10,6 +10,7 @@ Welcome to the home page of the AutoML.NFT dapp.
 ## Start Here:
 
 - [**AutoML.NFT Dapp**](https://lucid-mayer-4a70a5.netlify.app/) is running live on the cloud.
+- [**Sample "restaurant" dataset**](https://www.dropbox.com/s/5q61bqr136m52sf/dataset.xlsx?dl=0) can be used to test the dapp. Under Role, role for "RestaurantID" should be "Id" and role for "Satisfaction" should be "Target".
 - [**Documentation**](./doc/Documentation.md) describes the project and the dapp.
 - [**YouTube Video**](https://youtu.be/CwoCla53aFI) is the demo video for the hackathon.
 
@@ -90,3 +91,11 @@ conda install missingno
 conda install xelatex
 conda install Flask
 ```
+
+
+## Start Here:
+
+- [**AutoML.NFT Dapp**](https://lucid-mayer-4a70a5.netlify.app/) is running live on the cloud.
+- [**Sample "restaurant" dataset**](https://www.dropbox.com/s/5q61bqr136m52sf/dataset.xlsx?dl=0) can be used to test the dapp. Under Role, role for "RestaurantID" should be "Id" and role for "Satisfaction" should be "Target".
+- [**Documentation**](./doc/Documentation.md) describes the project and the dapp.
+- [**YouTube Video**](https://youtu.be/CwoCla53aFI) is the demo video for the hackathon.
