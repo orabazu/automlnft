@@ -30,7 +30,7 @@ Our experience as the project team on data science and ML and ML platforms, havi
 
 Our team consists of professionals from varying backgrounds, united with the ethos of **creating value through innovation**.
 
-![AutoML.NFT Project Team](./img/Slide06.png) 
+![AutoML.NFT Project Team](./img/Slide06new.png) 
 
 
 **Index**
