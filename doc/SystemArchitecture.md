@@ -1,18 +1,35 @@
-![Avalytics Logo](./img/AvalyticsLogoMini.png) ![Avalytics Logo](./img/AvalyticsLogo1Mini.png)
+![AutoMLNFT Logo](./img/logo.png)
 
 ## System Architecture
 
-Avalytics' system architecture is illustrated in the following figure:
+The system architecture is illustrated in the following figures as a series of flow charts.
 
-![Avalytics System Architecture](./img/SystemArchitecture.png)
+**Flowchart Symbols**
 
-According to this illustration, 
-1. Source of all data is the `Avalanche C-Chain` and is read/acquired from the source through the Moralis API.
-2. Data acquired from the C-Chain is stored in a Moralis database as the `Staging Layer`.
-3. Through running Python programs at a `Cloud Service` (AWS, in the current implementation), the data in the staging layer is processed.
-4. The data processed at the cloud service is sent back to Moralis, into a database, which serves as the `Consumption Layer`.
-5. The data available at the consumption layer is queried on the frontend with Javascript, using React.js. 
-6. Data queried from the consumption layer is visualized within the Avalytics app, using [D3.js](https://d3js.org/) and [Flourish Studio](https://flourish.studio/) Javascript libraries.
+In the flowcharts, the following symbols are the main building blocks:
+
+![Symbols in the Flowcharts](./img/0b_legend.png)
+
+**Overall Process Flow**
+
+![Overall Process Flow](./img/0a_overall_process.png)
+
+**Connecting Wallet**
+
+![Connecting Wallet](./img/1_connect_wallet.png)
+
+**Generating and Buying NFT Report**
+
+![Generating and Buying NFT Report](./img/2_generate_and_buy_NFT_report.png)
+
+**Buying Generated Report**
+
+![Buying Generated Report](./img/3_buy_generated_report.png)
+
+**NFT Dashboard and Buying from Marketplace**
+
+![NFT Dashboard](./img/4_NFT_dashboard.png)
+
 
 **Index**
 
@@ -20,12 +37,12 @@ According to this illustration,
 2. [Unique Value Offerings](UniqueValueOfferings.md)
 3. [Design Principles](DesignPrinciples.md)
 4. **System Architecture**
-5. [Backend: Data under Moralis](Backend.md)
-6. [Frontend: UI and Visual Analytics](Frontend.md)
+5. [Backend](Backend.md)
+6. [Frontend](Frontend.md)
 7. [Technology/Tool Stack](TechnologyStack.md)
 8. [Related Projects](RelatedProjects.md)
 9. [Other Resources](OtherResources.md)
-10. [Future Plans for Avalytics](FuturePlans.md)
+10. [Future Plans](FuturePlans.md)
 
 <hline></hline>
 
